@@ -1,0 +1,154 @@
+body {    
+    color: brown;
+    background-image: url('https://kartinki.pics/uploads/posts/2021-04/1617599372_22-p-fon-mainkraft-dlya-shapki-26.jpg');
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav_bar {
+    font-size: 30px;
+    font-weight: 900;
+}
+.container {
+    margin-top: 30px;
+}
+.row {
+}
+.col-8 {
+}
+.col-4 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.col-3.nav_logo {
+    background: url("https://media.forgecdn.net/avatars/21/699/635731173265581096.png") no-repeat center center;
+    background-size: 100%;
+    object-fit: fill;
+    width: 60px;
+    height: 60px;
+}
+.col-9 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.img { 
+    background: url("https://static.wikia.nocookie.net/villains-fr/images/2/23/Herobrine2.png/revision/latest?cb=20201024162626&path-prefix=fr") no-repeat center center;
+    background-size: 100%;
+    width: 100px;
+    height: 220px;
+    
+
+}
+.left_text {
+}
+.title_text{
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#myButton {
+    border: none;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blueviolet;
+    width: 200px;
+    height: 50px;
+    font-weight: 900;
+}
+
+#demo img {
+    margin-top: 20px;
+    width: 15%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.col-12.index {
+    text-align: center;
+}
+.form__reg {
+    height: 35px;
+    margin: 15px;
+}
+.form{
+    border-radius: 6px;
+    border-color: rgb(79, 75, 75);
+}
+
+.reg_text {
+    text-align: center;
+}
+
+.btn__reg {
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    border-radius: 10px;
+    font-weight: 900;
+    background-color: rgba(33, 172, 11, 0.806);
+    height: 50px;
+    border-width: 4px;
+    border-color: rgb(132, 73, 1);
+    color: #fff;
+}
+.hello {
+    text-align: center;
+    color: rgb(227, 3, 111);
+    font-weight: 900;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__title {
+    width: 500px;
+    margin: 10px;
+}
+
+.form__main {
+    width: 500px;
+    
+    margin: 10px;
+}
+.textarea_post{
+    border-radius: 6px;
+    min-height: 50px;
+    border-color: rgb(79, 75, 75);
+}
+.btn_red.btn__post{
+    margin: 10px;
+    border-radius: 15px;
+    font-weight: 900;
+    background-color: blueviolet;
+    height: 50px;
+    border-color: blueviolet;
+}
