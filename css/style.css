@@ -33,7 +33,7 @@ body {
     align-items: center;
 }
 .img { 
-    background: url("https://static.wikia.nocookie.net/villains-fr/images/2/23/Herobrine2.png/revision/latest?cb=20201024162626&path-prefix=fr") no-repeat center center;
+    background: url("https://static.wikia.nocookie.net/minecraft_ru_gamepedia/images/b/b4/Herobrine.png") no-repeat center center;
     background-size: 100%;
     width: 100px;
     height: 220px;
@@ -67,17 +67,10 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-
-
-
-
-
-
-
-/* 
 .col-12.index {
     text-align: center;
 }
+
 .form__reg {
     height: 35px;
     margin: 15px;
@@ -105,6 +98,7 @@ body {
     border-color: rgb(132, 73, 1);
     color: #fff;
 }
+
 .hello {
     text-align: center;
     color: rgb(227, 3, 111);
@@ -139,4 +133,4 @@ form {
     background-color: blueviolet;
     height: 50px;
     border-color: blueviolet;
-} */
+} 
