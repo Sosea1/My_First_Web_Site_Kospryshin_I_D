@@ -47,26 +47,6 @@ body {
     
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #myButton {
     border: none;
     border-radius: 10px;
@@ -87,6 +67,14 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+
+
+
+
+
+
+/* 
 .col-12.index {
     text-align: center;
 }
@@ -151,4 +139,4 @@ form {
     background-color: blueviolet;
     height: 50px;
     border-color: blueviolet;
-}
+} */
