@@ -39,7 +39,7 @@ require_once('db.php');
 if (isset($_COOKIE['User'])) {
     header("Location: profile.php");
 }
-$link = mysqli_connect('127.0.0.1', 'root', '111', 'data_base');
+$link = mysqli_connect('db', 'root', '111', 'data_base');
 if (isset($_POST['submit'])) {
     $username = $_POST['login'];
     $pass = $_POST['password'];
@@ -47,8 +47,9 @@ if (isset($_POST['submit'])) {
     if (!$username || !$pass)
         die ("Пожалуйста введите все значения");
     $sql = "SELECT * FROM users WHERE username='$username' AND pass='$pass'";
-    $result = mysqli_query($link, $sql);
 
+    $result = mysqli_query($link, $sql);
+    
     if(mysqli_num_rows($result) == 1) {
         setcookie("User", $username, time()+7200);
         header('Location: profile.php');

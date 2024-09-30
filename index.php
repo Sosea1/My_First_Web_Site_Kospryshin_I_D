@@ -25,7 +25,7 @@ integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2
             }
             else {
                 //подключение к бд
-                $link = mysqli_connect('127.0.0.1', 'root', '111', 'data_base');
+                $link = mysqli_connect('db', 'root', '111', 'data_base');
 
                 $sql = "SELECT * FROM posts";
                 $result = mysqli_query($link, $sql);

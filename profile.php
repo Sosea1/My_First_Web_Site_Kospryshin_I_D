@@ -49,7 +49,7 @@ integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2
             <div class="col-12">
                 <h1 class="hello">
                     Привет, <?php echo $_COOKIE['User']; ?>
-                </h1>
+                </h1> 
             </div>
         </div>
         <div class="row">
@@ -76,12 +76,11 @@ integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2
 </html>
 <?php
 require_once('db.php');
-$link = mysqli_connect('127.0.0.1', 'root', '111', 'data_base');
+$link = mysqli_connect('db', 'root', '111', 'data_base');
 
 if (isset($_POST['submit'])) {
     $title = $_POST['title'];
     $main_text = $_POST['text'];
-
     if (!$title || !$main_text)
         die ("Заполните все поля");
     $sql = "INSERT INTO posts (title, main_text) 
