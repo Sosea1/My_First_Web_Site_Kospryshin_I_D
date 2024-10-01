@@ -39,7 +39,7 @@ require_once('db.php');
 if (isset($_COOKIE['User'])) {
     header("Location: profile.php");
 }
-$link = mysqli_connect('db', 'root', '111', 'data_base');
+$link = mysqli_connect('127.0.0.1', 'root', '111', 'data_base');
 if (isset($_POST['submit'])) {
     $username = $_POST['login'];
     $pass = $_POST['password'];
